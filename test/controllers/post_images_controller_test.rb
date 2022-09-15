@@ -1,6 +1,6 @@
 require "test_helper"
 
-class PostimagesControllerTest < ActionDispatch::IntegrationTest
+class PostImagesControllerTest < ActionDispatch::IntegrationTest
   test "should get new" do
     get postimages_new_url
     assert_response :success
